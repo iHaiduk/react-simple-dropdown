@@ -4,7 +4,6 @@ import PropTypes from 'prop-types';
 class DropdownContent extends Component {
   render () {
     const { children, className, ...dropdownContentProps } = this.props;
-
     return (
       <div {...dropdownContentProps}>
         {children}

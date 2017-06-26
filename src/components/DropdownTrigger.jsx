@@ -4,7 +4,6 @@ import PropTypes from 'prop-types';
 class DropdownTrigger extends Component {
   render () {
     const { children, className, ...dropdownTriggerProps } = this.props;
-
     return (
       <a {...dropdownTriggerProps}>
         {children}
