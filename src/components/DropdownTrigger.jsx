@@ -1,12 +1,11 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 
-class DropdownTrigger extends Component {
+class DropdownTrigger extends PureComponent {
   render () {
-    const { children, className, ...dropdownTriggerProps } = this.props;
     return (
-      <a {...dropdownTriggerProps}>
-        {children}
+      <a {...this.props}>
+        {this.props.children}
       </a>
     );
   }
