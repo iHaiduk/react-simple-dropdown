@@ -33,11 +33,6 @@
     "component",
     "dropdown"
   ],
-  "author": {
-    "name": "Timothy Kempf",
-    "email": "tim@kemp59f.info",
-    "url": "http://kempfffffffffffffffffffffffffffffffffffffffffffffffffffffffffff.info"
-  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Fauntleroy/react-simple-dropdown/issues"
@@ -53,7 +48,7 @@
     "babel": "6.23.0",
     "babel-cli": "6.24.1",
     "babel-eslint": "^7.2.3",
-    "babel-preset-es2016": "6.24.1",
+    "babel-preset-es2015": "6.24.1",
     "babel-preset-react": "6.24.1",
     "babel-preset-stage-0": "6.24.1",
     "babelify": "^7.3.0",
@@ -72,7 +67,7 @@
     "react-highlight": "^0.10.0",
     "sane": "^2.0.0",
     "simple-mock": "^0.8.0",
-    "tape": "^4.6.3",
+    "tape": "^4.7.0",
     "trash-cli": "^1.4.0",
     "watchify": "^3.9.0",
     "zuul": "^3.11.1"
