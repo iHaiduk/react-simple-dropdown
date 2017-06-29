@@ -100,6 +100,7 @@ class Dropdown extends Component {
     delete cleanProps.active;
     delete cleanProps.onShow;
     delete cleanProps.onHide;
+    delete cleanProps.activeClassName;
 
     return (
       <div
